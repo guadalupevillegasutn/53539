@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "Probar Gramática (Elegir archivo)",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "${input:archivoPrueba}",
+            "grammar": "juego.g4",
+            "printParseTree": true,
+            "visualParseTree": true
+        }
+    ],
+    "inputs": [
+        {
+            "id": "archivoPrueba",
+            "type": "pickString",
+            "description": "Selecciona el caso de prueba",
+            "options": [
+                "correcto1.txt",
+                "correcto2.txt",
+                "incorrecto1.txt",
+                "incorrecto2.txt"
+            ],
+            "default": "correcto1.txt"
+        }
+    ]
+}
