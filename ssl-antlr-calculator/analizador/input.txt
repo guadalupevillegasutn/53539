@@ -1,0 +1,9 @@
+juego MiPrimerAventura {
+    escena Inicio {
+        mostrar "Bienvenido al calabozo.";
+        saltar Pasillo;
+    }
+    escena Pasillo {
+        mostrar "Avanzas por el pasillo oscuro.";
+    }
+}

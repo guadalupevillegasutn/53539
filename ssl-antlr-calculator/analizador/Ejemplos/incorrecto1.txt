@@ -1,0 +1,5 @@
+juego ErrorComa {
+    escena Sala {
+        mostrar "Falta el punto y coma" 
+    }
+}

@@ -1,0 +1,11 @@
+juego TestVariables {
+    escena Entrada {
+        mostrar "Ingrese su nombre:";
+        leer nombre;
+        si nombre == "admin" saltar Secreto;
+        mostrar "Hola aventurero.";
+    }
+    escena Secreto {
+        mostrar "Bienvenido, administrador.";
+    }
+}
